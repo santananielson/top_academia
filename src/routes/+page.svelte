@@ -1,6 +1,6 @@
 <script>
-    import imgHome from '../assets/musculacao.avif'
-    import icon from '../assets/icon-muscle.png';
+    import imgHome from '$lib/assets/musculacao.avif'
+    import icon from '$lib/assets/icon-muscle.png';
 </script>
 
 <section class="intro" style="background-image: url({imgHome})">
