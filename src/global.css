@@ -16,6 +16,8 @@ body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
     font-family: 'Cabin Variable', sans-serif;
+    background-color: var(--bg);
+    color: #fff;
 }
 
 img, picture, video, canvas, svg {
@@ -30,4 +32,14 @@ input, button, textarea, select {
 p, h1, h2, h3, h4, h5, h6 {
     overflow-wrap: break-word;
     font-family: 'Roboto Condensed', sans-serif;
+}
+h1 {
+    font-size: calc(36 / 16 * 1rem);
+}
+
+
+/*Classes*/
+.wrap {
+    margin: 0 auto;
+    padding: 0 40px;
 }
