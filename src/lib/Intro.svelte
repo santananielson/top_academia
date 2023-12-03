@@ -1,16 +1,22 @@
 <script>
     import imgMusculacao from '$lib/assets/musculacao.avif'
     import iconMuscle from '$lib/assets/icon-muscle.png';
+    import imgExercicio from '$lib/assets/exercicios.avif';
+    import iconWeight from '$lib/assets/icon-weight.png';
 
-    export let title;
-    export let content;
+    export let title = "Você está pronto para o desafio?";
+
+    export let content = "A Academia Local está pronta para te ajudar a chegar mais longe e alcançar sua melhor performance.";
+
     export let btn = "Saiba mais";
     export let href;
-    export let img;
+    export let img = 'musculacao';
     if (img === 'musculacao') img = imgMusculacao;
+    if (img === 'exercicios') img = imgExercicio;
 
     export let icon;
     if (icon === 'muscle') icon = iconMuscle;
+    if (icon === 'weight') icon = iconWeight;
 </script>
 
 <section class="intro" style="background-image: url({img})">
