@@ -6,7 +6,7 @@
 
     export let title = "Você está pronto para o desafio?";
 
-    export let content = "A Academia Local está pronta para te ajudar a chegar mais longe e alcançar sua melhor performance.";
+    export let content = "A Top Academia está pronta para te ajudar a chegar mais longe e alcançar sua melhor performance.";
 
     export let btn = "Saiba mais";
     export let href;
@@ -45,7 +45,7 @@
         content: '';
         position: absolute;
         inset: 0;
-        background-color: rgba(0,0,0,0.55);
+        background-color: var(--overlay);
     }
 
     .intro__wrapper {

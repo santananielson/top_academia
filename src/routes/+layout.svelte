@@ -4,11 +4,11 @@
     import '@fontsource/roboto-condensed/700.css';
     import '@fontsource-variable/cabin';
 	import Header from '$lib/Header.svelte';
+	import Footer from '$lib/Footer.svelte';
 </script>
 
-<div class="layout">
-    <Header/>
-    <main class="main">
-        <slot/>
-    </main>
-</div>
+
+<Header/>
+<slot/>
+<Footer/>
+
