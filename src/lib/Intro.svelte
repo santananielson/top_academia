@@ -61,4 +61,8 @@
         font-size: calc(18 / 16 * 1rem);
         margin-top: 16px;
     }
+    img{
+    display: inline;
+    max-width: 36px;
+    }
 </style>
