@@ -23,6 +23,7 @@
 	"type": "module",
 	"dependencies": {
 		"@fontsource-variable/cabin": "^5.0.16",
-		"@fontsource/roboto-condensed": "^5.0.13"
+		"@fontsource/roboto-condensed": "^5.0.13",
+		"@formkit/auto-animate": "^0.8.1"
 	}
 }
