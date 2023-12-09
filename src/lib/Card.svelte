@@ -1,5 +1,5 @@
 <script>
-    export let info
+    export let info;
     
 </script>
 
