@@ -5,7 +5,7 @@
 <footer class="footer" id="contato">
     <div class="footer__wrapper wrap">
         <div class="footer__img">
-            <img src="{img}" alt="">
+            <img src="{img}" alt="" width="1920" height="1080">
         </div>
         <div class="footer__info">
             <h2>Venha fazer seu<br> primeiro treino grátis</h2>
@@ -43,6 +43,7 @@
     }
     img {
         border-radius: 16px;
+        height: auto;
     }
     p {
         margin-top: 16px;
