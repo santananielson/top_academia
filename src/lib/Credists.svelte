@@ -1,7 +1,7 @@
 <div class="credits">
     <div class="credits__wrapper wrap">
         <span>© Top Academia, 2023</span>
-        <span>Desenvolvido por <a href="https://github.com/santananielson" style="color:#FF3E00; text-decoration:none;" target="_blank">Nielson Santana</a></span>
+        <span>Desenvolvido por <a href="https://santananielson.github.io/dev-links/" style="color:#FF3E00; text-decoration:none;" target="_blank">Nielson Santana</a></span>
     </div>        
 </div>
 
