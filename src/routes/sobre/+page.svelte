@@ -1,11 +1,17 @@
 <script>
     import Intro from "$lib/Intro.svelte";
 	import Info from "$lib/Info.svelte";
+	import Seo from "$lib/Seo.svelte";
 </script>
+
+<Seo
+    name="Sobre"
+    description="A Top Academia fica pertinho de você com várias modalidades para escolher."
+/>
 
 <Intro
     title="Conheça a academia que mais cresce na cidade!"
-    content="Confira algumas das perguntas frequentes."
+    content="Confira algumas das perguntas frequentes!"
     icon="weight"
     img="exercicios"
     btn="Modalidades"

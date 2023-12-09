@@ -2,9 +2,15 @@
     import Intro from '$lib/Intro.svelte';
 	import Card from '$lib/Card.svelte';
     import {modalidades} from '$lib/stores';
+	import Seo from '$lib/Seo.svelte';
 
     console.log($modalidades);
 </script>
+
+<Seo
+    name="Modalidades"
+    description="A Top Academia tem várias modalidades para que você tenha a melhor experiência possível!"
+/>
 
 <Intro
     title="Temos a modalidade certa
