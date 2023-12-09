@@ -24,7 +24,7 @@
 
 <section class="intro" style="background-image: url({img})">
     <div class="intro__wrapper wrap">
-        <h1 in:fly={{y:-12, duration: 125, delay: 125}}>{@html title} <img src="{icon}" alt="" width="36" height="36"></h1>
+        <h1 in:fly={{y:-12, duration: 125, delay: 125}}>{@html title} <img src="{icon}" alt="" width="36px" height="36px"></h1>
         <p in:fly={{y:-12, duration: 125, delay: 250}}>{content}</p>
 
         {#if btn && href}
