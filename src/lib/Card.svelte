@@ -1,9 +1,11 @@
 <script>
     export let info;
-    console.log(info);
+    import {page} from '$app/stores';
+
+    let archive = $page.route.id
 </script>
 
-<a href="/info.slug" class="card">
+<a href="{archive}/{info.slug}" class="card">
     <img src="{info.img}" alt="" width="120px" height="120px">
     <h2>{info.name}</h2>
 </a>
