@@ -5,7 +5,9 @@
 </script>
 
 
-<SeoHome/>
+<SeoHome
+    description='A Academia mais perto de você com o maior número de modalidades!'
+/>
 <Intro
     title="Você está pronto<br> para o desafio?"
     content="A Top Academia está pronta para te ajudar a chegar mais longe e alcançar sua melhor performance."
