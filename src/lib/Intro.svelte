@@ -4,6 +4,7 @@
     import imgExercicio from '$lib/assets/exercicios.avif';
     import iconWeight from '$lib/assets/icon-weight.png';
     import imgAlongamento from '$lib/assets/alongamento.avif';
+    import {fly} from 'svelte/transition'
 
     export let title = "Você está pronto para o desafio?";
 
@@ -23,11 +24,11 @@
 
 <section class="intro" style="background-image: url({img})">
     <div class="intro__wrapper wrap">
-        <h1>{@html title} <img src="{icon}" alt=""></h1>
-        <p>{content}</p>
+        <h1 in:fly={{y:-12, duration: 125, delay: 125}}>{@html title} <img src="{icon}" alt=""></h1>
+        <p in:fly={{y:-12, duration: 125, delay: 250}}>{content}</p>
 
-        {#if href}
-        <a class="btn" href="{href}">{btn}</a>
+        {#if btn && href}
+        <a class="btn" href="{href}" in:fly={{y:-12, duration: 125, delay: 375}}>{btn}</a>
         {/if}
     </div>
 </section>
