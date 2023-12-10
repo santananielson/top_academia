@@ -5,7 +5,7 @@ Um projeto inovador de site desenvolvido com a eficiente combinação do Svelte 
 </p>
 
 ## Svelte e SvelteKit: Uma Visão Técnica
-# Svelte
+## Svelte
 O Top Academia utiliza o Svelte como seu framework principal de construção de interfaces de usuário. Diferentemente de outros frameworks, Svelte realiza a maior parte do trabalho durante o tempo de compilação, gerando código JavaScript otimizado para o navegador.
 
  - Reatividade Eficiente: O Svelte introduz um paradigma de reatividade inovador, movendo a lógica reativa para a fase de compilação e resultando em uma execução mais eficiente no navegador.
@@ -31,7 +31,7 @@ O Top Academia é construído com o auxílio do SvelteKit, um framework que este
 
 > Exemplo de funcionamento da versão desktop
 
-<img src="/src/lib/assets/mobile-view.gif" alt="Exemplo imagem">
+<img src="/src/lib/assets/mobile-view.gif" alt="Exemplo imagem" style="display: block; margin: auto;">
 
 > Exemplo de funcionamento da versão mobile
 
@@ -51,9 +51,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
+Acesse o projeto<a href="https://top-academia.vercel.app" target="_blank">aqui</a>
+
 Projeto desenvolvido pelo tutorial sobre Svelte e SvelteKit do canal do <a href="https://www.youtube.com/@artneo7" target="_blank">Artneo</a>
 
-Acesse <a href="https://top-academia.vercel.app" target="_blank">aqui</a>
 
 ## :memo: Licença
 
