@@ -27,14 +27,14 @@ O Top Academia é construído com o auxílio do SvelteKit, um framework que este
   <a href="#memo-licença">Licença</a>
 </p>
 
-<p align="center" style="margin: 0; ">
+<p align="center" style="margin: 0;">
     <img src="/src/lib/assets/desktop-view.gif" alt="Exemplo imagem">
 
 > Exemplo de funcionamento da versão desktop
 </p><br><br>
 
 
-<p align="center" style="margin: 0; padding-bottom:20px;">
+<p align="center" style="margin: 0;">
   <img src="/src/lib/assets/mobile-view.gif" alt="Exemplo imagem" style="display: block; margin: auto;">
 
 > Exemplo de funcionamento da versão mobile
