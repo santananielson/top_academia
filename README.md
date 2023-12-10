@@ -1,38 +1,64 @@
-# create-svelte
+<h1 align="center"> Top Academia </h1>
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+<p align="center">
+Um projeto inovador de site desenvolvido com a eficiente combinação do Svelte e SvelteKit. Este repositório contém o código-fonte que impulsiona uma plataforma centrada no usuário, aproveitando os benefícios exclusivos dessas tecnologias de ponta.
+</p>
 
-## Creating a project
+## Svelte e SvelteKit: Uma Visão Técnica
+# Svelte
+O Top Academia utiliza o Svelte como seu framework principal de construção de interfaces de usuário. Diferentemente de outros frameworks, Svelte realiza a maior parte do trabalho durante o tempo de compilação, gerando código JavaScript otimizado para o navegador.
 
-If you're seeing this, you've probably already done this step. Congrats!
+ - Reatividade Eficiente: O Svelte introduz um paradigma de reatividade inovador, movendo a lógica reativa para a fase de compilação e resultando em uma execução mais eficiente no navegador.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+ - Componentização Dinâmica: Os componentes Svelte são construídos durante a compilação, reduzindo a quantidade de código enviado ao navegador e acelerando significativamente o tempo de carregamento.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## SvelteKit
+O Top Academia é construído com o auxílio do SvelteKit, um framework que estende as capacidades do Svelte para o desenvolvimento de aplicativos web complexos.
 
-## Developing
+ - Roteamento Integrado: SvelteKit oferece um sistema de roteamento integrado que simplifica a navegação entre páginas e componentes, proporcionando uma experiência de desenvolvimento mais coesa.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+ - APIs Prontas para Uso: Integração nativa com APIs facilita a comunicação entre o frontend e o backend, simplificando tarefas comuns, como recuperação de dados e manipulação de estados.
 
-```bash
-npm run dev
+ - Renderização do Lado do Servidor (SSR): A capacidade de SSR proporciona uma renderização inicial rápida das páginas, melhorando a otimização para mecanismos de busca e a experiência do usuário.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
 
-## Building
+<img src="/src/lib/assets/desktop-view.gif" alt="Exemplo imagem">
 
-To create a production version of your app:
+> Exemplo de funcionamento da versão desktop
 
-```bash
-npm run build
-```
+<img src="/src/lib/assets/mobile-view.gif" alt="Exemplo imagem">
 
-You can preview the production build with `npm run preview`.
+> Exemplo de funcionamento da versão mobile
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+</p>
+
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- HTML e CSS
+- JavaScript
+- Git e Github
+- Svelte / SvelteKit
+- Figma
+
+## 💻 Projeto
+
+Projeto desenvolvido pelo tutorial sobre Svelte e SvelteKit do canal do <a href="https://www.youtube.com/@artneo7" target="_blank">Artneo</a>
+
+Acesse <a href="https://top-academia.vercel.app" target="_blank">aqui</a>
+
+## :memo: Licença
+
+Esse projeto está sob a licença MIT.
+
+---
+
+Feito com ♥ by Nielson Santana :wave:
