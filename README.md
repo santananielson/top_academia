@@ -31,7 +31,7 @@ O Top Academia é construído com o auxílio do SvelteKit, um framework que este
     <img src="/src/lib/assets/desktop-view.gif" alt="Exemplo imagem">
 
 > Exemplo de funcionamento da versão desktop
-</p>
+</p><br><br>
 
 
 <p align="center" style="margin: 0; padding-bottom:20px;">
