@@ -27,15 +27,20 @@ O Top Academia é construído com o auxílio do SvelteKit, um framework que este
   <a href="#memo-licença">Licença</a>
 </p>
 
-<img src="/src/lib/assets/desktop-view.gif" alt="Exemplo imagem">
+<p align="center" style="margin: 0; ">
+    <img src="/src/lib/assets/desktop-view.gif" alt="Exemplo imagem">
 
-> Exemplo de funcionamento da versão desktop<br>
-
-<p align="center" style="margin: 0;">
-  <img src="/src/lib/assets/mobile-view.gif" alt="Exemplo imagem" style="display: block; margin: auto;">
+> Exemplo de funcionamento da versão desktop
 </p>
 
+
+<p align="center" style="margin: 0; padding-bottom:20px;">
+  <img src="/src/lib/assets/mobile-view.gif" alt="Exemplo imagem" style="display: block; margin: auto;">
+
 > Exemplo de funcionamento da versão mobile
+</p>
+
+
 
 <p align="center">
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
@@ -53,7 +58,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Acesse o projeto<a href="https://top-academia.vercel.app" target="_blank">aqui</a>
+Acesse o projeto <a href="https://top-academia.vercel.app" target="_blank">aqui</a>
 
 Projeto desenvolvido pelo tutorial sobre Svelte e SvelteKit do canal do <a href="https://www.youtube.com/@artneo7" target="_blank">Artneo</a>
 
