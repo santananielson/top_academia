@@ -55,6 +55,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Git e Github
 - Svelte / SvelteKit
 - Figma
+- VS code
 
 ## 💻 Projeto
 
